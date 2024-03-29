@@ -1,14 +1,8 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "api/tic-tac-toe.py"
-        }
-    ],
-    "routes": [
+    "rewrites": [
         {
             "src": "/(.*)",
-            "dest": "api/tic-tac-toe.py"
+            "destination": "api/tic-tac-toe.py"
         }
     ]
 }
