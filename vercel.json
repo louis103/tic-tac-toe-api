@@ -5,7 +5,7 @@
             "src": "api/tic-tac-toe.py",
             "use": "@vercel/python",
             "config": {
-                "runtime": "python3.6"
+                "runtime": "python3.9"
             }
         }
     ],
