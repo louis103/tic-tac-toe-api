@@ -1,4 +1,5 @@
 {
+    "version": 2,
     "builds": [
         {
             "src": "api/tic-tac-toe.py",
