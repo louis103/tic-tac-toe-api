@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "api/tic-tac-toe.py"
+            "destination": "api/tic-tac-toe"
         }
     ]
 }
