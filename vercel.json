@@ -1,8 +1,18 @@
 {
-    "rewrites": [
+    "version": 2,
+    "builds": [
         {
-            "source": "/(.*)",
-            "destination": "api/tic-tac-toe"
+            "src": "api/tic-tac-toe.py",
+            "use": "@vercel/python",
+            "config": {
+                "runtime": "python3.6"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/tic-tac-toe.py"
         }
     ]
 }
