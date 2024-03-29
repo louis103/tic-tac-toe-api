@@ -9,3 +9,7 @@ docs/_build/
 dist/
 venv/
 .venv
+api/
+Pipfile
+Pipfile.lock
+vercel.json
