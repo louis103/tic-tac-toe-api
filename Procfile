@@ -1,0 +1,1 @@
+web: gunicorn tic-tac-toe:app
